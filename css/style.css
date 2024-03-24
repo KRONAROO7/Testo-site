@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+main{
+    margin: 0;
+    background-color: rgb(223, 223, 223);
+    height: 800px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+}
+.text_gol{
+    text-align: center; 
+    margin: 0;
+    padding: 60px;
+}
+.div1{
+    font-size: 32px;
+}
+.style-knopka-gol:hover {
+    background-color:rgb(96, 139, 177);
+    transition: 0.7s;
+}
+.style-knopka-gol{
+    width: 624px;
+    appearance: none;
+    border: 0;
+    background: rgb(107, 154, 196);
+    color: #fff;
+    padding: 35px;
+    font-size: 32px;
+    
+}
+
+.style-knopka:hover {
+    background-color:#0083a3;
+    transition: 0.7s;
+}
+.style-knopka{
+    width: 205px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #0090b4;
+    color: #fff;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.form-control {
+    margin-right: 100px;
+    padding: 8px 16px;
+    width: 510px;
+    border-radius: 5px;
+    height: 25px; 
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
